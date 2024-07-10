@@ -1,0 +1,100 @@
+/* shared items  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+body {
+  background-color: black;
+}
+a {
+  text-decoration: none;
+}
+.a-black {
+  color: black;
+}
+.a-white {
+  color: white;
+}
+
+/* shared items end */
+
+/* header section  */
+header {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid rgba(160, 32, 240, 0.5);
+  margin-bottom: 150px;
+  background-image: url("../First_Try_All_Photo/Image-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(160, 32, 240, 0.5);
+}
+/* nav section  */
+nav {
+  width: 34%;
+  height: 26px;
+  margin: 75px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+nav a {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+}
+nav a:hover {
+  opacity: 0.3;
+}
+/* nav section end */
+/* header text section  */
+.header-text {
+  width: 45%;
+  height: 380px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.header-text h6 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 21px;
+}
+.header-text h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.header-text p {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+.header-text button {
+  width: 230px;
+  height: 60px;
+  border-radius: 100px;
+  background: rgb(37, 218, 197);
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+.header-text button:hover {
+  background: rgb(84, 247, 228);
+}
+/* header text section end */
+/* header section end */
+
+/* main section  */
+.content {
+  height: 540px;
+  width: 100%;
+}
+/* main section end */
