@@ -93,8 +93,40 @@ nav a:hover {
 /* header section end */
 
 /* main section  */
+/* content section  */
 .content {
-  height: 540px;
-  width: 100%;
+    height: 540px;
+    width: 100%;
+    margin-bottom: 150px;
+    background-image: url("../First_Try_All_Photo/Image.png");
+    background-color: rgba(0, 0, 255, 0.5);
+    margin-bottom: 150px;
 }
+.content-text {
+    width: 60%;
+    height: 540px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.content-text h6 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+.content-text h1 {
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+.content-text p {
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-bottom: 126px; */
+}
+/* content section end */
+
 /* main section end */
